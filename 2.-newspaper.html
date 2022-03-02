@@ -12,25 +12,21 @@
       }
 
       header{
-        background-color:white;
-        margin:0;
+        background-color: white;
         width:100%;
         box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1);
         position:fixed;
       }
       
-      img.burgermenu{
+      #burgermenu{
         height: 40px;
         position:absolute;
         width: 35px;
-        margin:6px;;
-        margin-top:7px;
-        padding:0;
+        margin: 7px 6px 6px 6px;
         cursor: pointer;
       }
 
-      img.logo{
-        /*background-color: aqua;*/
+      #logo{
         margin: 0.5% 37vw 0 45vw;
         height: 55px;
         width: auto;
@@ -41,28 +37,24 @@
         background-color: #087cc3; 
         border: none;
         padding: 9px 15px;
+        margin: 15px 6px;
+        font-size: 10px;
         text-align: center;
-        text-decoration: none;
         display: inline-block;
         position: absolute;
-        font-size: 10px;
-        margin: 15px 6px;
         cursor: pointer;
       }
 
       a.button{
         color: white;
         font-family: "Graphik-Regular", "Arial"; 
-        font-size: 10px;
         text-decoration-line: none;
-        margin:0;
-        padding:0;
       }
 
       div.advertisment {
-        /*background-color: red;*/
         padding: 60px 50vw 0 38vw;
       }
+      
       h3{
         margin-left: 9vw;
         font-family:"Graphik-Regular", "Arial";
@@ -82,11 +74,6 @@
         padding-top:1px;
       }
 
-
-      body{
-        /*background: pink;*/
-      }
-      
       div.title{
         padding: 30px 25% 0 25%;
         margin: auto;
@@ -268,25 +255,22 @@
   </head>
 
   
-  <!-- nav section! -->
   <body>
+    
+    <header>
+      <img id="burgermenu" src="https://img.myloview.es/cuadros/menu-icon-isolated-on-white-background-web-menu-icon-400-194411323.jpg">
+      <a href="https://www.newyorker.com/?intcid=inline_amp"><img id="logo" src="https://www.newyorker.com/verso/static/the-new-yorker/assets/logo-header.6e34c81346bc43475ffd572e6c2eb3e125927148.svg"></a>
+      <button><a class="button" href="https://www.newyorker.com/v2/offers/tny003?source=JNY_NYR_MOBILE_GOOGLE_AMP_NAVBAR_0_MARTECH_AMP_DEC21_FREETRIAL_ZZ&pos_name=JNY_NYR_MOBILE_GOOGLE_AMP_NAVBAR&utm_medium=site&utm_source=JNY_NYR_MOBILE_GOOGLE_AMP_NAVBAR&utm_campaign=tny003">Subscribe</a></button>
+    </header>
+
+    <div class="advertisment">
+      <h3>Advertisment</h3>
+      <img class="advertisment" src="assets/TopAd.png">
+    </div>
+
+    <div class="divider"></div>
+
     <article>
-      <header>
-        <img class="burgermenu" src="https://img.myloview.es/cuadros/menu-icon-isolated-on-white-background-web-menu-icon-400-194411323.jpg">
-        <!--<a href="https://subscribe.newyorker.com/subscribe/newyorker/126155?source=AMS_NYR_DESKTOP_NAV_LEFT_0_VERSO_INTL_FLASHSALE_FEB22_METERTEST_PANELB_ZZ&pos_name=AMS_NYR_DESKTOP_NAV_LEFT">Flash Sale—save 50%.</a>
-        -->
-        <a href="https://www.newyorker.com/?intcid=inline_amp"><img src="https://www.newyorker.com/verso/static/the-new-yorker/assets/logo-header.6e34c81346bc43475ffd572e6c2eb3e125927148.svg" class="logo"></a>
-        <button><a class="button" href="https://www.newyorker.com/v2/offers/tny003?source=JNY_NYR_MOBILE_GOOGLE_AMP_NAVBAR_0_MARTECH_AMP_DEC21_FREETRIAL_ZZ&pos_name=JNY_NYR_MOBILE_GOOGLE_AMP_NAVBAR&utm_medium=site&utm_source=JNY_NYR_MOBILE_GOOGLE_AMP_NAVBAR&utm_campaign=tny003">Subscribe</a></button>
-      </header>
-
-      <div class="advertisment">
-        <h3>Advertisment</h3>
-        <img class="advertisment" src="assets/TopAd.png">
-      </div>
-
-      <div class="divider"></div>
-
-
       <div class="title" >
         <a href="https://www.newyorker.com/tech/annals-of-technology" class="red">ANNALS OF TECHNOLOGY</a>
         <h1>HEDY LAMARR'S FORGOTTEN, FRUSTRATED CAREER AS A WARTIME INVENTOR</h1>
