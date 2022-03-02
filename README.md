@@ -6,11 +6,11 @@
 Tags
 ----
 
-1. Write a basic template for an HTML document that you can use as a starting
+1.[DONE] Write a basic template for an HTML document that you can use as a starting
    point for your own work. Make a repo of it that you can clone easily.
    Update it when you find out things that you want to start with.
 
-2. Pick a very short newspaper article from any online newspaper and write an
+2.[DONE] Pick a very short newspaper article from any online newspaper and write an
    HTML page with the content from it. Use the tags ``article``, ``nav``,
    ``section``, ``header`` and ``footer``. If there are elements for which
    you don't have a tag, use the ``class`` attribute, and apply ``id``s
