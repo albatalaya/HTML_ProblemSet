@@ -20,7 +20,7 @@ Tags
    * Can we distinguish the tags on the screen? 
    * Why do we need tags like ``article`` or ``section``? 
 
-3. Write an HTML file to show the following table:
+3.[DONE] Write an HTML file to show the following table:
 
    | Concept    | Tags                                                                |
    |------------|---------------------------------------------------------------------|
@@ -34,17 +34,17 @@ Tags
 The browser inspector
 ---------------------
 
-1. Go to the [Google](https://google.com) page and answer the following:
+1.[DONE] Go to the [Google](https://google.com) page and answer the following:
    * Find the logo on the inspector. What is the ``alt`` text in it?
    * Is the search box an ``input`` element?
    * What type of element is the microphone icon in the search bar?
    * What about the magnifying glass on the left?
    * Does Google use a ``footer`` element on the bottom and if not, what is it?
 
-2. Download the image used in [this degree page](https://www.talent.upc.edu/cat/estudis/formacio/curs/313400/postgrau-full-stack-web-technologies/)
+2.[DONE] Download the image used in [this degree page](https://www.talent.upc.edu/cat/estudis/formacio/curs/313400/postgrau-full-stack-web-technologies/)
    as background.
 
-3. Go to the ["Why Choose React" page](https://www.quora.com/Why-choose-React) 
+3.[DONE] Go to the ["Why Choose React" page](https://www.quora.com/Why-choose-React) 
    on Quora on a browser and from there navigate to other pages. At some
    point Quora shows a login box (*"By continuing, I agree that I am..."*)
    and behind it the article you were trying to see is visible but the text is
@@ -56,7 +56,7 @@ The browser inspector
    "``ContentWrapper``") and look for the CSS ``filter`` property with the
    "blur" and uncheck it to make the text readable. Yay!
 
-4. Go to 
+4.[DONE] Go to 
    [this Minidosis page](http://www.minidosis.org/#/actividades/Cpp.Funciones.Binomial.doc), 
    and check how much text it has. Now look at the HTML code of the page (Ctrl+U)
    and search with Ctrl+F for pieces of the text you have seen. What is going
@@ -66,7 +66,7 @@ The browser inspector
 The browser console
 -------------------
 
-1. By using the ``document`` object in the browser console, show an array of all
+1.[DONE] By using the ``document`` object in the browser console, show an array of all
    links in some page you like (a short one preferably). If you dare, try to use
    Javascript to change the background color of all links to yellow.
 
